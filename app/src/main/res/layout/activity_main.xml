@@ -31,6 +31,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:layout_weight="1">
+
         <ImageView
             android:id="@+id/bebziImg"
             android:layout_width="match_parent"
@@ -39,6 +40,7 @@
             android:scaleX="1.4"
             android:scaleY="1.3"/>
         <TextView
+            android:id="@+id/bebziText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="↑"
@@ -56,12 +58,16 @@
         android:orientation="vertical"
         android:layout_weight="1">
         <ImageView
+            android:paddingTop="13.5dp"
             android:id="@+id/colaImg"
             android:layout_width="match_parent"
             android:layout_height="250dp"
+            android:scaleY="1.05"
+            android:scaleX="1.01"
             app:srcCompat="@drawable/cocacola"
             />
         <TextView
+            android:id="@+id/colaText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="↑"
