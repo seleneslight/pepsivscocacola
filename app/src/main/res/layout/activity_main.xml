@@ -17,7 +17,71 @@
             android:layout_height="wrap_content"
             android:text="Which do you PREFER?"
             android:gravity="center"
+            android:textColor="#dd0909"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:padding="20dp"
             />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/bebziImg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/pepsi"
+            android:scaleX="1.4"
+            android:scaleY="1.3"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="↑"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:padding="20dp"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/colaImg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/cocacola"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="↑"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:padding="20dp"
+            />
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</LinearLayout>
+
 
     </LinearLayout>
 
